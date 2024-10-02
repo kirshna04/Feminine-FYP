@@ -1,0 +1,15 @@
+.product{
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(13rem,1fr));
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+
+.custom-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}

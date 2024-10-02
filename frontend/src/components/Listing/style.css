@@ -1,0 +1,23 @@
+.custom-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width:fit-content;
+  height: 4rem;
+}
+
+@media only screen and (max-width:767px) {
+  .oddProduct {
+    width: 50rem;
+    background-color: red;
+  }
+}
+
+.product{
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(13rem,1fr));
+  gap: 1rem;
+  box-sizing: border-box;
+}
